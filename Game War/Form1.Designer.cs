@@ -70,7 +70,9 @@
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btnStart);
             this.Name = "Tmain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fereastra Principala";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Tmain_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

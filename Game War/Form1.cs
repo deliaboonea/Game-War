@@ -34,5 +34,10 @@ namespace Game_War
             gameForm.Show();
             this.Hide();
         }
+
+        private void Tmain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
